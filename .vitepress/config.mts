@@ -4,6 +4,7 @@ import { AnnouncementPlugin } from 'vitepress-plugin-announcement'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "MinecraftServerMutualAid",
+  base: "/Vitepress-templates/",
   description: "A VitePress Site",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
