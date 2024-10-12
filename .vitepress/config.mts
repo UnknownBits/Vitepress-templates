@@ -26,6 +26,12 @@ export default defineConfig({
       { icon: 'github', link: 'https://github.com/MCServerMutualAid' }
     ]
   },
+  locales: {
+    root: {
+      label: '简体中文',
+      lang: 'zh_cn',
+    }
+  },
   vite: {
     plugins: [
       AnnouncementPlugin({
